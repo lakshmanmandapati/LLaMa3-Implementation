@@ -36,3 +36,20 @@ Install using:
 
 ```bash
 pip install -r requirements.txt
+### **Steps**
+1.  **Prepare:** Ensure Llama 3 license accepted and Hugging Face logged in (`huggingface-cli login`).
+2.  **Execute:** Run script:
+
+    ```bash
+    python inference.py
+    ```
+    (First run downloads large model weights; may take time.)
+
+### **Important Note on Hardware:**
+
+This implementation aims for architectural understanding. Running the full Llama 3 8B model (which is around 16GB in size in bfloat16 precision) on systems with limited unified or dedicated GPU memory might lead to "Out of Memory" errors. For practical deployment of such models on resource-constrained hardware, highly optimized tools like **Ollama** are often recommended.
+
+### **Resources**
+* **Official Llama 3:** [Meta Llama Website](https://ai.meta.com/llama/), [Hugging Face Model Card](https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct)
+* **Practical Use:** [Ollama Website](https://ollama.com/)
+* **General LLM Understanding:** Various online resources, open-source implementations, and tutorials.
