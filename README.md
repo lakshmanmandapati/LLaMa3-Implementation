@@ -55,4 +55,5 @@ This implementation aims for architectural understanding. Running the full Llama
 ### **Resources**
 * **Official Llama 3:** [Meta Llama Website](https://ai.meta.com/llama/), [Hugging Face Model Card](https://huggingface.co/meta-llama/Meta-Llama-3-8B-Instruct)
 * **Practical Use:** [Ollama Website](https://ollama.com/)
-* **General LLM Understanding:** Various online resources, open-source implementations, and tutorials.
+## 📖 Read the Full Blog:
+https://medium.com/@lakshmanmandapati0/unpacking-llama-3-a-hands-on-journey-implementing-a-large-language-model-3672352c3c38
